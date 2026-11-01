@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>데일리 아이디어 2026-10-20 </title>
+<meta name="description" content="전 세계에서 새로 나온 프로젝트·아이디어를 모아 업그레이드 각도와 함께 전하는 사이트.">
+<link rel="canonical" href="https://idea.protocolgaia.com/e/2026-10-20/">
+<style>
+:root{color-scheme:light;--paper:#f5f0e4;--card:#fbf6e9;--ink:#20201d;--muted:#5f5c54;--line:#20201d;--blue:#3c7794}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);
+font:16px/1.75 system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;word-break:keep-all}
+.wrap{width:min(880px,100%);margin:0 auto;padding:28px 16px 64px}
+a{color:inherit}nav.top{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--muted);margin-bottom:8px}
+nav.top a{text-decoration:none}nav.top a:hover{text-decoration:underline}
+h1{font-size:clamp(24px,4.4vw,36px);line-height:1.25;letter-spacing:-.02em;margin:14px 0 8px}
+h2{font-size:20px;margin:0 0 6px;line-height:1.4}
+.meta{color:var(--muted);font-size:14px;margin:0 0 20px}
+article.card{border:2.5px solid var(--line);border-radius:14px;background:var(--card);
+padding:20px 22px;margin:0 0 22px}
+article.card p{margin:6px 0}
+article.card .why{margin-top:10px}
+article.card .src{margin-top:12px;font-size:14px}
+.cat{display:inline-block;font-size:12px;font-weight:700;border:1.5px solid var(--line);
+border-radius:999px;padding:0 9px;margin-bottom:8px;background:var(--paper)}
+footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="top"><a href="/">데일리 아이디어</a><a href="https://protocolgaia.com/">Protocol Gaia</a></nav>
+<h1>데일리 아이디어 —  (2026-10-20)</h1>
+<p class="meta">2026-10-20 · 12건</p>
+<article class="card">
+<span class="cat">AI</span>
+<h2><a href="/c/23/">WhatsApp MCP — Cloudflare에서 무료로 도는 왓츠앱 브리지</a></h2>
+<p>Cloudflare 워커에 올리면 무료로 돌아가는 WhatsApp용 MCP 서버. Claude가 왓츠앱 메시지를 직접 읽고 답한다.</p>
+<p>HN 146점·댓글 78개. &quot;서버 비용 0원&quot;이 핵심 — Cloudflare 무료 티어 위에 WhatsApp 브리지를 얹었다.</p>
+<p class="why"><b>업그레이드 각도:</b> 한국판 각도: 카카오톡은 공식 API가 없으니 QR 로그인+브라우저 방식의 &#x27;카톡 MCP&#x27;로 똑같이 만들 수 있음. 1인 사업자 상담 챗봇이 지갑 연다.</p>
+<p class="src">출처: <a href="https://github.com/finereli/whatsapp-mcp" rel="noopener">Hacker News</a></p>
+</article>
+<article class="card">
+<span class="cat">AI</span>
+<h2><a href="/c/24/">Deslop — AI 특유의 말투를 빼버린 Qwen3-4B</a></h2>
+<p>&quot;결론적으로&quot;, &quot;더 나아가&quot; 같은 AI 특유의 말투를 학습 데이터에서 걸러내고 다시 학습시킨 4B 소형 모델.</p>
+<p>HN 145점·댓글 107개. &#x27;AI 냄새 나는 글&#x27;이 골칫거리인 사람들에게 직격. 4B라 노트북에서 돈다.</p>
+<p class="why"><b>업그레이드 각도:</b> 한국어판 각도: 번역체·보고서체 말투를 벗긴 한국어 글쓰기 특화 소형 모델. 블로그 대필 시장에 바로 꽂힌다.</p>
+<p class="src">출처: <a href="https://100toolkit.com/blog/deslop-model/" rel="noopener">Hacker News</a></p>
+</article>
+<article class="card">
+<span class="cat">개발도구</span>
+<h2><a href="/c/25/">KiviDB — Redis보다 빠른 메모리 DB + 벡터 캐시</a></h2>
+<p>Redis와 호환되면서 더 빠르고, 벡터 검색 캐시까지 붙인 메모리 데이터베이스.</p>
+<p>HN 62점·댓글 39개. &#x27;드롭인 교체&#x27;가 포인트 — 기존 Redis 코드를 안 고치고 속도만 올린다.</p>
+<p class="why"><b>업그레이드 각도:</b> AI 시대 각도: RAG용 임베딩 캐시를 메모리 DB에 같이 넣는 패턴. &#x27;벡터 캐시 미들웨어&#x27;만 따로 떼어 SaaS로도 됨.</p>
+<p class="src">출처: <a href="https://github.com/kividbio/kividb" rel="noopener">Hacker News</a></p>
+</article>
+<article class="card">
+<span class="cat">AI</span>
+<h2><a href="/c/26/">Strot — LLM의 판단을 한 번 컴파일해서 로컬에서 돌리기</a></h2>
+<p>LLM에게 &quot;이렇게 판단해&quot;라고 한 번 가르치면, 이후엔 로컬에서 룰처럼 빠르게 결정을 내려주는 도구.</p>
+<p>HN 23점. &#x27;매번 API 부르지 말고 판단을 컴파일하자&#x27;는 발상. 비용·지연 둘 다 잡는다.</p>
+<p class="why"><b>업그레이드 각도:</b> 각도: 고객 문의 분류·스팸 판정 같은 반복 판단 업무에 &#x27;컴파일된 판단&#x27;을 파는 마이크로 SaaS.</p>
+<p class="src">출처: <a href="https://github.com/strot-ai/Project-STROT" rel="noopener">Hacker News</a></p>
+</article>
+<article class="card">
+<span class="cat">앱</span>
+<h2><a href="/c/27/">3anddone — 하기 싫은 일을 대신 처리해주는 태스크 시스템</a></h2>
+<p>&#x27;하기 싫은 잡일&#x27;은 시스템이 알아서 처리하고, 나는 진짜 일에만 집중하게 만드는 태스크 관리 앱.</p>
+<p>HN 43점·댓글 43개. 투두 앱이 넘쳐나는 시대에 &#x27;잡일 자동 분해&#x27;가 차별점.</p>
+<p class="why"><b>업그레이드 각도:</b> 각도: 한국 프리랜서용 &#x27;세금계산서·견적서 같은 잡일 자동화&#x27; 버전. 잡일=돈 버는 일로 직결된다.</p>
+<p class="src">출처: <a href="https://3anddoneapp.com/try" rel="noopener">Hacker News</a></p>
+</article>
+<article class="card">
+<span class="cat">AI</span>
+<h2><a href="/c/28/">PCB 주문 MCP — 조립 PCB 주문을 Claude에게 맡기기</a></h2>
+<p>Claude한테 &quot;이 회로도 PCB로 만들어줘&quot; 하면 견적부터 주문까지 처리해주는 MCP 서버.</p>
+<p>HN. 하드웨어 쇼핑몰이 MCP를 붙인 사례. &#x27;AI 에이전트=구매 대행&#x27; 시대의 신호탄.</p>
+<p class="why"><b>업그레이드 각도:</b> 각도: 한국 부품몰도 MCP 하나면 &#x27;AI가 부품 장바구니 담아주기&#x27; 가능. B2B 견적 자동화가 킬러 기능.</p>
+<p class="src">출처: <a href="https://provenmetal.com/mcp" rel="noopener">Hacker News</a></p>
+</article>
+<article class="card">
+<span class="cat">AI</span>
+<h2><a href="/c/29/">ai-job-search — 내 컴퓨터에서 도는 AI 구직 프레임워크</a></h2>
+<p>이력서 넣고 기다리는 게 아니라, 내 PC에서 AI가 공고를 찾고 지원서를 대신 쓰는 구직 자동화 프레임워크.</p>
+<p>GitHub 트렌딩 하루 스타 3,860개로 1위. &#x27;로컬에서 돈다&#x27; = 내 이력서가 남의 서버에 안 올라간다.</p>
+<p class="why"><b>업그레이드 각도:</b> 각도: 사람인·잡코리아용 어댑터만 붙이면 한국판이 바로 통한다. 공채 시즌 타이밍이 좋다.</p>
+<p class="src">출처: <a href="https://github.com/MadsLorentzen/ai-job-search" rel="noopener">GitHub Trending</a></p>
+</article>
+<article class="card">
+<span class="cat">개발도구</span>
+<h2><a href="/c/30/">headroom — LLM에 닿기 전에 로그를 압축하는 도구</a></h2>
+<p>코딩 에이전트에게 넘어가는 도구 출력·로그·파일을 LLM이 읽기 전에 압축해서 토큰을 아끼는 도구.</p>
+<p>GitHub 트렌딩 하루 317스타. &#x27;컨텍스트 다이어트&#x27;는 에이전트 시대의 새 병목.</p>
+<p class="why"><b>업그레이드 각도:</b> 각도: 에이전트 IDE 플러그인으로 만들어 &#x27;토큰 절약 리포트&#x27;를 보여주면 유료 전환이 쉽다.</p>
+<p class="src">출처: <a href="https://github.com/headroomlabs-ai/headroom" rel="noopener">GitHub Trending</a></p>
+</article>
+<article class="card">
+<span class="cat">개발도구</span>
+<h2><a href="/c/31/">jasna — 로컬에서 도는 영상 복원 도구</a></h2>
+<p>낡고 깨진 영상을 복원해주는 오픈소스 비디오 복원 툴. 로컬에서 돈다.</p>
+<p>GitHub 트렌딩 하루 502스타. 설치형 복원 파이프라인이라 클라우드 비용이 0.</p>
+<p class="why"><b>업그레이드 각도:</b> 각도: &#x27;옛날 가족 영상 복원&#x27;을 원클릭 웹앱으로. 부모님 세대가 지갑 여는 감성 SaaS.</p>
+<p class="src">출처: <a href="https://github.com/Kruk2/jasna" rel="noopener">GitHub Trending</a></p>
+</article>
+<article class="card">
+<span class="cat">앱</span>
+<h2><a href="/c/32/">Beam.win — 다른 맥의 창을 내 맥에 띄우기</a></h2>
+<p>맥 미니에서 도는 AI 에이전트의 터미널·브라우저 창을, 내 앞 맥 화면에 그냥 창으로 띄워주는 앱.</p>
+<p>Product Hunt 오늘 상위권. &quot;화면 공유가 아니라 창 하나씩 가져오기&quot;가 핵심. 하루 20분 무료 체험.</p>
+<p class="why"><b>업그레이드 각도:</b> 각도: 헤드리스 맥 미니=AI 에이전트 서버 시대. &#x27;에이전트 관제 데스크&#x27; UI로 확장하면 개발자 지갑이 열린다.</p>
+<p class="src">출처: <a href="https://www.producthunt.com/products/beam-win" rel="noopener">Product Hunt</a></p>
+</article>
+<article class="card">
+<span class="cat">개발도구</span>
+<h2><a href="/c/33/">Lancetta — 코딩 에이전트 쿼터를 언제 쓸지 알려주는 앱</a></h2>
+<p>Claude Code·Codex의 5시간 쿼터가 얼마나 남았는지 읽고 &quot;지금 밀어붙여/좀 쉬어&quot;를 알려주는 맥 메뉴바 앱.</p>
+<p>Product Hunt 오늘 런칭. 쿼터 읽는 데 토큰을 0개 쓴다는 게 포인트. 무료, 서명된 네이티브 앱.</p>
+<p class="why"><b>업그레이드 각도:</b> 각도: 팀 단위 &#x27;쿼터 대시보드&#x27;로 확장 — 회사에서 AI 코딩 비용 관리하는 관리자가 산다.</p>
+<p class="src">출처: <a href="https://www.producthunt.com/products/lancetta" rel="noopener">Product Hunt</a></p>
+</article>
+<article class="card">
+<span class="cat">SaaS</span>
+<h2><a href="/c/34/">readywhen — WhatsApp 속에서 일하는 시니어 비서</a></h2>
+<p>왓츠앱 안에서 전화·문자로 일을 받아 처리해주는 AI 비서. 자기 전화번호·컴퓨터·프로젝트 보드까지 있다.</p>
+<p>Product Hunt 오늘 런칭. 1,000개 이상 툴 연동, &quot;보내기 전엔 항상 승인&quot;이 신뢰 포인트. 베타 기간 무료.</p>
+<p class="why"><b>업그레이드 각도:</b> 각도: 한국은 카톡 — &#x27;카톡 속 비서&#x27; 자리가 비어 있음. 1인 사장님의 견적·일정·팔로업만 받아줘도 된다.</p>
+<p class="src">출처: <a href="https://www.producthunt.com/products/readywhen" rel="noopener">Product Hunt</a></p>
+</article>
+<footer>데일리 아이디어 · <a href="/">홈</a> · <a href="https://protocolgaia.com/about/">소개</a> · <a href="https://protocolgaia.com/privacy/">개인정보처리방침</a></footer>
+</div>
+</body>
+</html>
